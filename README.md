@@ -26,6 +26,9 @@ Here are some ideas to get you started:
 
 I love learning in public, and I want to use this section to track what I did at work. I'm a big fan of [data driven understanding](https://neilkakkar.com/the-human-log.html) - and I hope this log gives me a better understanding of what I'm getting done.
 
+<details>
+<summary>Things I'm doing: Click to expand!</summary>
+
 ## 14 May 2021
 
 - Disallow Plugins from changing the teamID: https://github.com/PostHog/plugin-server/pull/381
@@ -43,4 +46,6 @@ Week 1 at PostHog!
    - I messed up here a bit: https://github.com/PostHog/posthog-python/pull/28 - be moaar careful about tests that don't pass on local but pass on master
    - Interesting difference in workflow causing bugs: I didn't think of pulling master because I'm used to working off of forks, vs pre-existing branches
 - Random typos and fixes: https://github.com/PostHog/posthog/pull/4220, https://github.com/PostHog/posthog.com/pull/1307, https://github.com/PostHog/posthog.com/pull/1316
+
+</details>
 
