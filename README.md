@@ -29,6 +29,16 @@ I love learning in public, and I want to use this section to track what I did at
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
 
+## 21 May 2021
+
+I was Support Hero this week! It's... intense! Lots of user issues that I first have to learn about myself, and then solve. This took a surprisingly long amount of time, but was very worth it: it helped me see where actual users of PostHog get stuck.
+
+- Built Plugin Capabilities: https://github.com/PostHog/plugin-server/pull/384, https://github.com/PostHog/posthog/pull/4371
+  - This was my first big feature: involving touching a lot of things and understanding the system, so I could come up with a decent solution. Fun stuff!
+- Support fixes: https://github.com/PostHog/posthog-python/pull/32
+
+It's funny how this appears to be the least productive week so far, but I felt I got much more out of it, vs the past 2 weeks. I ought to do Support Hero more often than the usual schedule, if possible.
+
 ## 14 May 2021
 
 - Disallow Plugins from changing the teamID: https://github.com/PostHog/plugin-server/pull/381
