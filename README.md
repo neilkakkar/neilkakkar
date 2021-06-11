@@ -29,6 +29,21 @@ I love learning in public, and I want to use this section to track what I did at
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
 
+## 11 June 2021
+
+Well, plugin installation is deprioritized for now. New focus: plugin development experience! Lots of time spent thinking about how the documentation should look like, what workflows should the code promote, and what feels confusing.
+
+- Making the Plugin Development Experience nicer: https://github.com/PostHog/posthog.com/pull/1467, https://github.com/PostHog/posthog/pull/4688
+- Wrangling with BigQuery: https://github.com/PostHog/bigquery-plugin/pull/9
+   - Good Habit of mind - when things are hard to debug, write code to make it easier to debug similar issues in the future: https://github.com/PostHog/plugin-server/pull/465
+
+## 4 June 2021
+
+Thinking about a big project, and learning enough about the interacting systems to design a decent solution can be hard! Really looking forward to finishing the plugin installation step.
+
+- Plugin Install Step: https://github.com/PostHog/plugin-server/issues/405, https://github.com/PostHog/plugin-server/pull/456
+- Debugging S3 Queues: https://github.com/PostHog/plugin-server/pull/451
+
 ## 28 May 2021
 
 Getting comfortable with the codebase, starting to focus on reviewing others' code. It's interesting to try and model how new changes would affect the existing code. Further, this helped uncover my blindspots - glad I started this earlier than later!
