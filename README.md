@@ -29,6 +29,21 @@ I love learning in public, and I want to use this section to track what I did at
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
 
+## 25 June 2021
+
+I was getting pretty comfortable with my role, and that seemed like the best time to switch teams 😂. Purely co-incidental, we shifted focus, and I've been writing wonderful SQL this week. Damn, this is SO MUCH FUN. This week (and hopefully the coming few weeks, really want to brush up on my querying skills). This has been very helpful: https://pgexercises.com/
+
+- Some complex funnels: https://github.com/PostHog/posthog/pull/4868, https://github.com/PostHog/posthog/pull/4863
+- When revisiting setting up, always update docs for whoever comes after you :) - https://github.com/PostHog/posthog.com/pull/1506
+
+## 18 June 2021
+
+Finishing up new processes for the Plugin Developer Experience, plus excellent docs.
+
+- https://github.com/PostHog/posthog-plugin-starter-kit/pull/7, https://github.com/PostHog/posthog.com/pull/1467
+- Fun bug fixes: https://github.com/PostHog/posthog/pull/4772
+- Odds and ends: https://github.com/PostHog/posthog/pull/4755, https://github.com/PostHog/posthog.com/pull/1497
+
 ## 11 June 2021
 
 Well, plugin installation is deprioritized for now. New focus: plugin development experience! Lots of time spent thinking about how the documentation should look like, what workflows should the code promote, and what feels confusing.
