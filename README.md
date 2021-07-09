@@ -28,6 +28,23 @@ I love learning in public, and I want to use this section to track what I did at
 
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
+   
+## 9 July 2021
+
+Who knew playing around with SQL, and generating interesting queries could be so much fun? This week was more dakka: more add ons, more functionality to the basic funnel APIs. Some clever refactoring + testing mechanisms, that I enjoyed setting up
+
+- Interesting test infra setup with Funnel Breakdowns - https://github.com/PostHog/posthog/pull/5043
+- Refactoring to remove obsolete concepts - https://github.com/PostHog/posthog/pull/5037
+- Bells and whistles - https://github.com/PostHog/posthog/pull/5024
+- Random bug fixes: https://github.com/PostHog/posthog/pull/5055
+
+
+## 2 July 2021
+
+Some big funnel improvements
+
+- Remember to create tests for backwards compatibility! - https://github.com/PostHog/posthog/pull/4946
+- Unordered funnels, people, and more - https://github.com/PostHog/posthog/pull/4943, https://github.com/PostHog/posthog/pull/4890
 
 ## 25 June 2021
 
