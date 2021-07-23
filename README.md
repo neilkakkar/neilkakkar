@@ -28,6 +28,21 @@ I love learning in public, and I want to use this section to track what I did at
 
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
+
+## 23 July 2021
+
+Final sprint before Funnels meant lots of QA, lots of bugfixing, and lots of testing :) - I'm so tired now.
+
+Special Bugs: When your new technologies don't work like you'd expect: https://github.com/ClickHouse/ClickHouse/issues/26580, and patches for it: https://github.com/PostHog/posthog/pull/5283
+Bug fixes: https://github.com/PostHog/posthog/pull/5174, https://github.com/PostHog/posthog/pull/5277, https://github.com/PostHog/posthog/pull/5292, https://github.com/PostHog/posthog/pull/5308, https://github.com/PostHog/posthog/pull/5315, https://github.com/PostHog/posthog/pull/5316
+
+## 16 July 2021
+   
+Lots of gathering requirements, getting to the bottom of new features we want to implement: https://github.com/PostHog/posthog/issues/5074 - and reminders to think from first principles.
+
+And then doing it: https://github.com/PostHog/posthog/pull/5104
+Some code rearchitectures that make future-work so much easier: https://github.com/PostHog/posthog/pull/5043
+Random bug fixes: https://github.com/PostHog/posthog/pull/5055
    
 ## 9 July 2021
 
