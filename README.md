@@ -29,6 +29,15 @@ I love learning in public, and I want to use this section to track what I did at
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
 
+## 30 July 2021
+
+More bug fixes, some tricky things to grasp, and finally dipped into other unknown areas. I follow a land-and-expand strategy: get really good at understanding one part of the system, then slowly expand from that "base" to understand rest of the system. This usually means that my work speed slows down, as I parse through all the new stuff.
+
+A good way to do this is to pick up bugs at the edges of what you know. That's what I've been doing:
+- Dashboard bug: https://github.com/PostHog/posthog/pull/5395 
+- Caching bugs: https://github.com/PostHog/posthog/pull/5399
+- Breakdown in funnels bug: mix of frontend and backend issues - https://github.com/PostHog/posthog/pull/5357
+   
 ## 23 July 2021
 
 Final sprint before Funnels meant lots of QA, lots of bugfixing, and lots of testing :) - I'm so tired now.
