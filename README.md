@@ -29,6 +29,26 @@ I love learning in public, and I want to use this section to track what I did at
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
 
+## 20 August 2021
+
+I owned my first project! https://github.com/PostHog/posthog/issues/5543
+
+Apart from thinking hard about this, the regular sprint continues. [Working on Paths](https://github.com/PostHog/posthog/issues/5545) - the new feature!
+
+https://github.com/PostHog/posthog/pull/5646
+
+This week's been pretty cool, because I'm finally doing more of the ground-up startupy stuff: thinking through things from scratch, building PoCs, gathering results, and then finally building the product.
+
+## 13 August 2021
+
+Final sprint for Funnels, got the vaccine, got sick afterwards, didn't do much, except this one big bug fix for funnel breakdowns: https://github.com/PostHog/posthog/pull/5655, https://github.com/PostHog/posthog/pull/5538
+
+## 6 August 2021
+
+Remember how Support Hero was a lot of fun? (Week of 21 May, 2021). Time for round 2. A lot less overwhelming, as I knew a lot more about things (but still not everything).
+
+Random bug fixes: https://github.com/PostHog/posthog/pull/5486 etc. etc.
+   
 ## 30 July 2021
 
 More bug fixes, some tricky things to grasp, and finally dipped into other unknown areas. I follow a land-and-expand strategy: get really good at understanding one part of the system, then slowly expand from that "base" to understand rest of the system. This usually means that my work speed slows down, as I parse through all the new stuff.
