@@ -29,6 +29,21 @@ I love learning in public, and I want to use this section to track what I did at
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
 
+## 1 October 2021
+
+Two weeks of working on Paths. We shored up the API, and I finally got my hands on the frontend code. Kea is an amazing library to work with.
+
+One very interesting problem: Validating Graph Edges on Paths: https://github.com/PostHog/posthog/issues/6041 (and linked PRs!)
+
+- Connect Persons on a Path to an API request: https://github.com/PostHog/posthog/pull/6035, https://github.com/PostHog/posthog/pull/6070
+- API additions: https://github.com/PostHog/posthog/pull/6124, https://github.com/PostHog/posthog/pull/6111, https://github.com/PostHog/posthog/pull/6052
+- Query Optimisations: https://github.com/PostHog/posthog/pull/6125
+- Random Frontend stuff: https://github.com/PostHog/posthog/pull/6175, 
+
+## 17 September 2021
+
+A (missed) Offsite, Support Hero, vacation to Mallorca <3
+
 ## 20 August 2021
 
 I owned my first project! https://github.com/PostHog/posthog/issues/5543
