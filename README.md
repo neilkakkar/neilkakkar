@@ -29,6 +29,20 @@ I love learning in public, and I want to use this section to track what I did at
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
 
+## 15 October 2021
+   
+Wow, what a sprint! I finally started implementation on the huge-ass Quantitative Analysis Project. What's unique about this project is that I'm leading one for the first time. It started off like this: https://github.com/PostHog/posthog/issues/5543
+
+I was working closely with one other person, and we got an MVP out in week 1. This was faaaast! It allowed us to iterate quickly, gather feedback, and fix data issues quickly. With a product that depends on data being good, this was critical.
+
+I wouldn't link specific PRs, because there were a shit-tonne
+
+![image](https://user-images.githubusercontent.com/7115141/137518354-09ce7a51-bbd9-476a-ae62-13060d287699.png)
+
+Interestingly, I spent a lot more time thinking about the problems to solve here, even after work (which didn't bode well for sleeping peacefully). At the same time, this allowed for some cool technical breakthroughs, where we could run correlations much quicker.
+
+Finally, doing live user interviews was fun - getting feedback from actual users, reading between the lines, figuring out what they want, and then putting those ideas together was a fun challenge: https://github.com/PostHog/posthog/issues/6474. The next sprint is going to be scary ambitious.
+
 ## 1 October 2021
 
 Two weeks of working on Paths. We shored up the API, and I finally got my hands on the frontend code. Kea is an amazing library to work with.
