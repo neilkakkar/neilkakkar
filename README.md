@@ -29,6 +29,31 @@ I love learning in public, and I want to use this section to track what I did at
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
 
+## 3 December 2021
+
+Aaaanndd I'm back with a new Project! This time, we're targeting experimentation: https://github.com/PostHog/posthog/issues/7418.
+
+Just like last time, we want to get something working out this sprint. Ofcourse, I started with learning about what existing A/B test platforms do, building a model of why they do things that way, and then tweaking that model so it sits on top of PostHog's existing systems. That's what you see happen in the above thread^.
+
+https://github.com/PostHog/posthog/issues/7462
+
+## 26 November 2021
+
+Support Hero time again. Probably not surprising, but this is becoming more intense: there's lots more people in Slack asking questions, which means I'm stretched thin, but oh, such a nice problem to have.
+
+Guess which week was Support Hero: ![image](https://user-images.githubusercontent.com/7115141/144571971-0197913b-400f-4fe5-afb8-578f16c7b05c.png)
+
+
+## 19 November 2021
+
+After the huge project, it's vacation time! Need time to recharge - it was intense, too many open loops that kept me thinking about work after work.
+
+## 29 October 2021
+
+I shipped Quant Analysis! While last time was just the MVP, this time [we polished things up](https://github.com/PostHog/posthog/issues/6474), iterated on user feedback, and went back to them to see if they were happy (yes, they were). This was absolutely brilliant.
+
+I used to think the most complicated part of building a product was the software engineering. Now I think it's figuring out what to build.
+
 ## 15 October 2021
    
 Wow, what a sprint! I finally started implementation on the huge-ass Quantitative Analysis Project. What's unique about this project is that I'm leading one for the first time. It started off like this: https://github.com/PostHog/posthog/issues/5543
