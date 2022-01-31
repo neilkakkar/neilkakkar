@@ -29,6 +29,27 @@ I love learning in public, and I want to use this section to track what I did at
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
 
+## 4 February 2022
+
+Automated Insights is the new hardd project, and I'm having a lot of fun remixing ideas: https://github.com/PostHog/posthog/issues/8261. OpenAI is amazing: what would've taken me days to setup 3 years ago now took 30 minutes. 🤯. This is great for quickly validating & discarding ideas.
+
+## 28 January 2022
+
+This month has been amazing. Experimentation looks great, has kicked off well, users (atleast the ones we interviewed) love most of it, and we launched it to everyone on Cloud this week!
+
+This project is different from Correlation Analysis, in the sense that it takes longer for feedback to arrive: Users have to actually finish running their experiments to give feedback on the later-half of the product: the experience while running & on ending an experiment. So, decided to pause improvement work on this for now, setup metrics & docs, and wait for users to use it, listen in to feedback, and then decide how to solve the problems that come up.
+
+Super happy with all that got done this month (it's a LOT, with lots of ...experimenting):
+
+![image](https://user-images.githubusercontent.com/7115141/151827353-8a187ba8-5a9c-469a-9d6b-5a82ed427a30.png)
+
+
+## 7 January 2022
+
+We hit a slight snag with Experimentation: Most users were away during Christmas, which made it hard to schedule feedback calls, which made it hard to iterate quickly. I switched strategies a bit, and now focusing on building out things we definitely need for Experimentation to be successful, sans feedback. Would've loved to validate these, but eh. Will do it as intervews start pouring in.
+   
+Went on a 2 week break myself as well, which was refreshing.
+
 ## 3 December 2021
 
 Aaaanndd I'm back with a new Project! This time, we're targeting experimentation: https://github.com/PostHog/posthog/issues/7418.
