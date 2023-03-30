@@ -30,6 +30,68 @@ I love learning in public, and I want to use this section to track what I did at
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
 
+## 28 March 2023
+
+New year, new offsite! This time, I had a solution: ChatGPT; and I was looking for a problem. We built a support bot to answer community questions - which has worked out surprisingly well.
+
+Also, lots of tweaking around with the infrastructure, I've learned different ways pgbouncer can break. I wrote a blogpost about everything we learned trying to make flags reliable: https://github.com/PostHog/posthog.com/pull/5546
+
+
+## 28 February 2023
+
+More feature flag optimisations, my favourite being with cohorts: https://github.com/PostHog/posthog/pull/14272 - now, instead of relying on computed cohorts to evaluate flags, we convert cohorts into their definitions, and then use those in flags, so it uses the latest properties, irrespective of whether they are in the cohort yet or not.
+
+This speeds things up as well, as we only need to go in one place to evaluate flags (the person properties database).
+
+## 28 January 2023
+
+Focus is back on feature flags, since they are the core of both experiments and features. We are mature enough with respect to features that a decent amount of people have started using them. This has brought up a new problem: Feature flags going down is a no-no. Not only does it affect our customers; but also our customers' customers.
+
+So, make sure our flags are as resilient as possible: https://github.com/PostHog/posthog/issues/13601.
+
+Also, caching is hard.
+
+## 28 October 2022
+
+It's been a while since experimentation released, and we've learned what all mistakes we made. One big mistake I made was not allowing users to change experiment goals once the experiment started. I was worried about p-hacking, but more often than not, the issue was that people made a mistake setting up the experiment, and it was _very_ annoying to restart the experiment just to change the goal, since you're losing all the data you've collected so far.
+
+This month was all about fixing up these mistakes, polishing experiments up so we can learn the new ways things break.
+
+We also spent some time thinking about the long term vision for our team: https://github.com/PostHog/posthog.com/pull/4516
+
+## 28 September 2022
+
+More feature flag improvements. A big one was bootstrapping, which brings local evaluation to the client-side (in a way): https://github.com/PostHog/posthog-js-lite/pull/24. You can initialise your libraries on the frontend with feature flags, which makes them instantly available.
+
+## 28 July 2022
+
+This month was about tackling the server-side libraries feature flag issues. I created a spec that simplified our work, since there was a standard document to replicate across libraries: https://github.com/PostHog/posthog/issues/10459#issuecomment-1193842228. This helped us review PRs quickly, and also helped us be faster for implementing, since you could blindly copy the structure, as long as you keep in mind language specific gotchas.
+   
+## 28 June 2022
+
+The focus is coming back to feature flags. Specifically, there are a few problems that make them unusable on server-side libraries, and also for user flows (like authentication) where the user identity changes.
+
+It was tricky figuring out how to add support for something like this, while not destroying performance, since this is a very sensitive endpoint. I ended up cleaning a lot of cruft on this endpoint to make this fast.
+
+An explanation of the problem: https://github.com/PostHog/posthog/issues/9547
+The solution: https://github.com/PostHog/posthog/pull/10196
+
+
+## 28 May 2022
+
+The next big thing to tackle is person on events: We are revamping all our queries to become scalable for billion event querying. This requires getting rid of joins as much as possible, and changing our data model a bit to support that. Here's a big overview of this: https://github.com/PostHog/posthog/issues/9802 - this turned out to be a pretty massive refactor.
+
+## 28 April 2022
+   
+The new project is support for complex filters in cohorts: not only can we freely combine them, but also added support for complex behaviour like figuring out if a user did an event multiple times / in a specific sequence to become part of the cohort. Github thinks this was my highlight PR for the project: https://github.com/PostHog/posthog/pull/9462
+
+
+## 28 March 2022
+
+Lots of polishing on Experiments, the last 20% polishing takes surprisingly long. I've come to realise that frontend work takes a lot more time and effort.
+
+We also had our offsite hackathon, out of which came Universal Search: The top searchbar on posthog now searches through everything to give a response.
+
 ## 4 February 2022
 
 Automated Insights is the new hardd project, and I'm having a lot of fun remixing ideas: https://github.com/PostHog/posthog/issues/8261. OpenAI is amazing: what would've taken me days to setup 3 years ago now took 30 minutes. 🤯. This is great for quickly validating & discarding ideas.
