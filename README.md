@@ -30,6 +30,59 @@ I love learning in public, and I want to use this section to track what I did at
 <details>
 <summary>Things I'm doing: Click to expand!</summary>
 
+## December 2024
+
+I took two months off in the middle to help recover.
+
+Other than that, lots of progress on error tracking. I was much slower in July/August, but things seem to be picking back up after the break(s). Feeling better and can focus for longer, which is great :)
+
+## June 2024
+
+We're now a team of 4!
+
+I'm really excited about rewriting the flags service in rust (RFC - https://github.com/PostHog/product-internal/pull/587 ) - this has been amazing to work on. And its my excuse to learn rust as well.
+
+Managing these four products has gotten to be a bit too stressful for me, partly my fault for not recognising the signs earlier and dumbly trying to power through. Oh well, lesson learned, and it was a harsh one. I stepped down as a tech lead and decided to switch teams and become an IC. Next up, session replay and error tracking!
+
+## March 2024
+
+Alongside the usual, one big project this quarter has been revamping experiments, polishing them, making them much nicer, addressing most of the user feedback we've heard over the past year.
+
+A frustrating feature flag incident (details here: https://github.com/PostHog/post-mortems/pull/1/files) had me kicking myself for not thinking of this failure mode earlier. I updated all SDKs and they are in a much nicer place with respect to resiliency.
+
+
+## December 2023
+
+Some new features for flags, lots of bug fixing, and unblocking the team. We reduced down to a team of 2, which made juggling priorities a bit harder.
+
+## October 2023
+
+Lots of survey fixes, new features for surveys, and quality of life improvements after user feedback. I'm proudest of getting rid of an opt-in step for surveys that was painful for users - rearchitecting our SDKs to make this just work increased conversion rate for users trying out surveys by 40%!!
+
+## August 2023
+
+I'm writing this update more than a year later so I think I have the chronology a bit mixed up, but the fourth (and historically under-loved) product in our team comes to life: Early access features. Super useful, they're still used internally to allow users to opt in to feature flags. Very useful, 10/10 would recommend.
+
+Personally, lots more bug fixes, and I've been focusing on integrating our 4 products now better into other PostHog products, like linking to recordings, easy actions in notebooks for flags and surveys, etc.
+
+## July 2023
+
+We built a new product in our team: surveys!
+
+## June 2023
+
+Lots of improvements to flag reliability, experiments, and cohorts.
+
+We also setup pricing for feature flags. There was a very interesting technical challenge here around accurately counting number of requests that we'll price on. This number needs to be exact - it will be very wrong to overcharge users (which means we need to correctly handle race conditions between threads serving requests), and should not slow down the actual request itself. I think I ended up with a pretty elegant solution using redis time bucket sets - the current bucket can be filled up atomically, and a background job collapses all previously filled buckets with a lock to gather counts. We can't lock the current bucket because that interferes with all the threads adding request counts to it. More details in this PR: https://github.com/PostHog/posthog/pull/15837
+
+
+## April 2023
+
+I became the tech lead for feature flags, experiments. Lots to learn around how to manage effectively, and keeping up with my personal contributions as well. It's crazy how much small tweaks to team processes can boost efficiency, happiness, and the culture that evolves.
+
+In retrospect, one of the most impactful changes I made was starting metric mondays to make our product decisions more data-driven. As soon as data became a part of everyday talks, and our revenue & churn numbers were on top of every team members mind, we made better decisions.
+
+
 ## 28 March 2023
 
 New year, new offsite! This time, I had a solution: ChatGPT; and I was looking for a problem. We built a support bot to answer community questions - which has worked out surprisingly well.
